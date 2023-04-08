@@ -1,40 +1,12 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
+  <img src="./blog-app.PNG" alt="logo" width="256"  height="auto" />
   <br/>
 
-  <h3><b>Island Blogs</b></h3>
+  <h3><b>BLOG APP</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+<a name="readme-top"></a>
 
 # 📗 Table of Contents
 
@@ -54,39 +26,23 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Island Blogs] <a name="about-project"></a>
+# 📖 [blog-app] <a name="about-project"></a>
 
-> This blog app is a simple web application that allows users to create, read, update, and delete posts.Users can also add comments to posts and like posts.
-
+**[blog-app]** In this project, I will use migration files to build a schema. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> The app is built using a web framework and a relational database management system
-
 <details>
-  <summary>Client</summary>
+<summary>Back-end</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Ruby on rails</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby on rails</a></li>
   </ul>
 </details>
 
@@ -94,21 +50,13 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> The app has four main features:
-
-- **[User management]**
-- **[Post management]**
-- **[Comment management]**
-- **[Like management]**
+- **[create files migration from schema]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 To get a local copy up and running, follow these steps.
 
@@ -116,48 +64,27 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-
-```sh
- gem install rails
-```
-
+rails installed 
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+  git clone git@github.com:Juanpa8830/blog-app.git
+  cd blog-app
 
-```sh
-  git clone https://github.com/ahadb802/blog.git
-```
 
 ### Install
 
 Install this project with:
 
-
-```sh
-  gem install
-```
-
+  bundle install
 
 ### Usage
 
 To run the project, execute the following command:
 
-
-```sh
-  rails server
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
-
+rails server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,11 +92,12 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **AHAD**
+👤 **Juan Pablo Guerrero**
 
-- GitHub: [ahad](https://github.com/ahadb802)
-- Twitter: [ahad](https://twitter.com/ahadb802)
-- LinkedIn: [ahad](https://www.linkedin.com/in/abdul-ahadb/)
+- GitHub: [@juanpa8830](https://github.com/Juanpa8830)
+- LinkedIn: [Juan Pablo Guerrero](https://www.linkedin.com/in/juanpabloguerrerorios/)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,9 +105,8 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Associations
-- Test cases
-- Validations
+
+- [ ] **[create a user interface]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,36 +116,27 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Juanpa8830/blog-app/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+## © Acknowledge <a name="acknowledge"></a>
 
-## ⭐️ Show your support <a name="support"></a>
-
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-
-I would like to thank microverse to let me use theisr project
+- Thanks to my learning partners for all their support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+## ⭐ Show your support <a name="support"></a>
 
+I really enjoyed doing this project, so, if you like it, I´d appreciate your support giving me a ⭐.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
